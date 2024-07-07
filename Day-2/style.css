@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+}
+main{
+    width: 50%;
+    border: 2px solid red;
+    height: 200vh;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 1px;
+    left: 20%;
+    right: 30%;
+    padding: 110px 50px;
+}
+.aside-container{
+    width: 100%;
+    position: absolute;
+    height: 150vh;
+    top: 0;
+}
+aside{
+    background-color: rgb(203, 25, 55);
+    width: 300px;
+    height: 70vh;
+    float: right;
+    position: sticky;
+    top: 80px;;
+}
+.contact{
+    background-color: yellow;
+    /* float: right; */
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+}
